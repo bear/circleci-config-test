@@ -8,4 +8,5 @@ jobs:
       - checkout
       # Whatever you want to do
       - run: sudo apt-get update && sudo apt-get install -y cowsay
+      - run: which cowsay
       - run: cowsay Continuous Integration Rocks!
